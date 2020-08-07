@@ -136,7 +136,7 @@ a:hover:after {
 .rodape {
     
     background-color: pink;
-    position: relative;
+    position: absolute;
     height: 3%;
     width:100%;
     font-family: 'Raleway', sans-serif;
