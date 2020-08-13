@@ -39,6 +39,7 @@ body {
     background-color: #ddd;
     color: black;
     font-size: 25px;
+    text-decoration:none;
 
 }
 
@@ -91,7 +92,6 @@ a:hover:after {
     position: relative;
     display: inline;
     display: inline-block;
-    background-color: rgba(255, 255, 255, 0.5);
     overflow: hidden;
     text-align: center;
     padding-top: 0%;
@@ -101,7 +101,7 @@ a:hover:after {
     margin: -1% 10% 5% 0%;
   }
   .hoverzoom img {
-    width: 50%; 
+    width: 45%; 
     border-radius: 2px;
     -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
     -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
@@ -133,7 +133,11 @@ a:hover:after {
     width: 70%;
     position: relative;
 }
+a:link 
+{ 
+ text-decoration:none; 
 
+} 
 .p{
     text-justify: auto;
 
